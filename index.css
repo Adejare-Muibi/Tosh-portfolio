@@ -1,0 +1,595 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+.sec1{
+    background-color: black;
+    padding-top: 30px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: pink;
+    transition: 2s ease-in-out;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    gap: 183px;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: x-large;
+}
+.sec1 h2{
+    font-size: xx-large;
+}
+.menu-js{
+    display: none;
+
+
+}
+.line{
+    background-color: white;
+    color: white;
+    margin: 5px;
+    width: 25px;
+    height: 3px;
+}
+.home-js{
+    display: none;
+
+}
+
+
+.sec2{
+    /* width: 100%; */
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+     
+}
+.div1{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+.sec2 p{
+    color: rgb(197, 193, 193);
+    font-size: 24px;
+}
+.div-get{
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+}
+.sec2 h1{
+    color: white;
+    font-size: 60px;
+    width: 45vw;
+}
+.btn1 button{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background: linear-gradient(red, blue);
+    color: white;
+    border: none;
+}
+
+
+.sec3{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.about h1{
+    font-size: 80px;
+    color: red;
+}
+.italo{
+    /* height: 30vh; */
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about h3{
+    font-size: 24px;
+    color: #FFFFFF80;
+}
+.div-all{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.sec3-img1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.problem h3{
+    font-size: x-large;
+    color: white;
+}
+.sec3-img2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sec3-img3{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.problem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.sec4{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    background-color:#000000;
+    padding: 90px  0px;
+}
+.sec4 h1{
+    color: white;
+}
+.skill h1{
+    color: red;
+    font-size: 50px;
+}
+.frontback{
+    display: flex;
+    gap: 350px;
+}
+.div-front{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.div-back{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.front-img1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.front-img1 div{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.front-img2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.front-img2 div{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.dataUi{
+    display: flex;
+    gap: 350px;
+}
+.div-data{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.div-ui{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.front-img3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.front-img4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.front-img3 div{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.front-img4 div{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.work button{
+    padding: 20px 33px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(red, blue);
+    border: none;
+    font-size: large;
+}
+.recent{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.recent h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: red;
+}
+.rec-all{
+    display: flex;
+    gap: 100px;
+}
+.rec-all h2{
+    color: white;
+    font-size: xx-large;
+}
+.rec-all p{
+    color: #FFFFFF80;
+    font-size: larger;
+}
+.rec1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.see button{
+    padding: 20px 55px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(red, blue);
+    border: none;
+    font-size: large;
+}
+.div-blog{
+    background-color: rgb(46, 43, 43);
+    padding: 20px 35px;
+    border-radius: 20px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.sec5{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(17, 0, 0);
+    gap: 45px;
+    padding: 95px 0px;
+}
+.sec5 h1{
+    font-size: 50px;
+    color: red;
+}
+.sec5 p{
+    color: #FFFFFF80;
+    text-align: center;
+    font-size: 30px;
+
+}
+.send button{
+    padding: 20px 33px;
+    border-radius: 10px;
+    background: linear-gradient(red, blue);
+    border: none;
+    color: white;
+    font-size: large;
+}
+.contact{
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sec6{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 150px; */
+    background-color:#000000;
+    padding: 90px  0px;
+}
+.have-img{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.have h1{
+    color: red;
+    font-size: 45px;
+}
+.have{
+    text-align: center;
+}
+.git{
+    display: flex;
+    gap: 18px;
+}
+.copy{
+    color: #FFFFFF80;;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: x-large;
+}
+
+
+
+@media screen and (max-width: 950px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sec1{
+        flex-direction: column;
+    }
+    a{
+        color: rgb(240, 237, 237);
+        text-decoration: none;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        gap: 90px;   
+       
+    }
+    .menu-js{
+        display: block;
+    }
+    .home-js{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: darkcyan;
+        height: 0vh;
+        transition: 3s ease-in-out;
+
+    }
+    .toggle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 25px 0; */
+        overflow: hidden;
+        height: 45vh;
+        transition: 3s ease-in-out;
+    }
+    
+    .home-ul{
+        display: none;
+    }
+    .sec1 h2{
+        /* font-size: xx-large; */
+        align-items: center;
+    }
+    .sec2{
+       gap: 0px;
+       flex-direction: column;
+       padding-top: 90px;
+    }
+    .sec2 p{
+        font-size: large;
+        width: 55%;
+    }
+    .div-get{
+        gap: 10px;
+    }
+    .sec2 h1{
+        color: white;
+        font-size: xx-large;
+        width: 60vw;
+        
+    }
+    .btn1 button{
+        padding: 10px 30px;
+    }
+    .sec2 img{
+        height: 25vh;
+    }
+    .div1{
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+    }
+    .div-get{
+        align-items: center;
+        text-align: center;
+    }
+    .div-get p{
+        text-align: center;
+    }
+
+    .sec3{
+        flex-direction: column-reverse;
+        gap: 0px;
+        padding-top: 50px;
+    }
+    .about h1{
+        font-size: 50px;
+        color: red;
+    }
+    .about h3{
+        font-size: large;
+        color: #FFFFFF80;
+        width: 65%;
+        text-align: center;
+    }
+    .div-all{
+        align-items: center;
+        
+    }
+    .about{
+        align-items: center;
+        text-align: center;
+    }
+    .problem h3{
+        font-size: medium;
+        color: white;
+    }
+    .italo img{
+        height: 25vh;
+        
+    }
+    .problem img{
+        height: 3vh;
+    }
+    .problem{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+
+    }
+    .sec4{
+       gap: 60px;
+       flex-direction: column;
+       /* align-items: center; */
+       justify-content: center;
+    }
+    .front-img2{
+        padding-left: 30px;
+    }
+    .front-img4{
+        padding-left: 30px;
+    }
+    .skill h1{
+        font-size: 45px;
+    }
+    .frontback{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .frontback h1{
+        font-size: x-large;
+        text-align: center;
+    }
+    .div-front{
+        gap: 25px;
+        align-items: center;
+    }
+    .div-back{
+        gap: 30px;
+        align-items: center;
+    }
+    .frontback h2{
+        font-size: large;
+    }
+    .frontback img{
+        height: 3vh;
+    }
+    .dataUi{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .dataUi h1{
+        font-size: x-large;
+    }
+    .dataUi h2{
+        font-size: large;
+
+    }
+    .div-data{
+        gap: 30px;
+        align-items: center;
+    }
+    .div-ui{
+        gap: 30px;
+        align-items: center;
+    }
+    .dataUi img{
+        height: 3vh;
+    }
+    .work button{
+        padding: 15px 28px;
+        font-size: medium;
+    }
+    .recent{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    .recent h1{
+        font-size: 45px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .rec-all{
+        flex-direction: column;
+        gap: 75px;
+    }
+
+    .sec5{
+
+    }
+    .sec5 p{
+        /* font-size: larger; */
+        width: 60%;
+
+    }
+
+}
